@@ -145,7 +145,7 @@ This document provides a comprehensive guide for deploying a Java Spring Boot ap
 
   ```bash
    cd /var/www/html
-   git clone https://github.com/abrahimcse/sims-dynamic-web.git
+   git clone https://github.com/linckon/student-management-app.git
   ```
   Go to backend project directory and update the MySql database ConnectionString
 
