@@ -128,8 +128,9 @@ This document provides a comprehensive guide for deploying a Java Spring Boot ap
   ```sql
   CREATE DATABASE studentdb;
   CREATE USER 'student_user'@'localhost' IDENTIFIED BY 'Password#4321';
-  GRANT ALL PRIVILEGES ON studentdb.* TO 'studentdb'@'localhost';
+  GRANT ALL PRIVILEGES ON studentdb.* TO 'student_user'@'localhost';
   FLUSH PRIVILEGES;
+  EXIT;
   ```
 
 ### 5. Install Nginx
