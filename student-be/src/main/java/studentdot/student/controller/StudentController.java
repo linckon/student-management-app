@@ -55,5 +55,10 @@ public class StudentController {
         return ResponseEntity.ok(updateStudent);
     }
 
+    @GetMapping("/health")  
+    public ResponseEntity<String> isServerUp() {  
+        return ResponseEntity.ok("OK");  // Returns "OK" with HTTP 200 status  
+    }
+
 
 }
